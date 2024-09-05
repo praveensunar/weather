@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>weather-search</title>
+</head>
+<body>
+    <div id="main">
+        <nav>
+            <input class="input-box" type="text" placeholder="Enter your location">
+            <button><img src = "https://img.icons8.com/?size=100&id=7695&format=png&color=000000"></button>
+        </nav>
+
+        <div class="head">
+            <h1>Sorry..!</h1>
+            <h2>Location Not Found.!</h2>
+            <img src="image/404.png" alt="">
+        </div>
+        <div class="weatherbody">
+        <div id="image">
+            
+            <img class="image" src="image/img.png" alt="image">
+        </div>
+        <div id="weather-box">
+            <p class="temperature">0<sup>°C</sup></p>
+            <p class="description">ligth Rain</p>
+        
+        </div>
+        <div id="weater-detail">
+            <div class="humidity">
+                <img src="image/humidity.png" alt="humidity">
+                <div class="text">
+                    <span id ="humidity">45%</span>
+                    <p>Humidity</p>
+                </div>
+                
+            </div>
+            <div class="wind">
+                <img src="image/windy.png" alt="wind">
+                <div class="text">
+                    <span id ="wind-speed">20Km/hr</span>
+                    <p>Wind Speed</p>
+                </div>              
+            </div>
+        </div>
+    </div>
+    <footer>
+        <small>
+          Copyright © 2024 Praveen. All Rights Reserved.
+        </small>
+      </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
